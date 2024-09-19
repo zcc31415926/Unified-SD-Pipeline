@@ -1,2 +1,2 @@
 # Unified-SD-Pipeline
-A unified Stable Diffusion pipeline based on diffusers
+A unified Stable Diffusion pipeline based on *diffusers*
