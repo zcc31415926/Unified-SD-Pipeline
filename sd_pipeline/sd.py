@@ -25,7 +25,6 @@ class SD:
     def initializeModules(self, Pipeline, kwargs):
         pipeline = Pipeline.from_pretrained(
             self.model_id, torch_dtype=self.torch_dtype, **kwargs)
-        pipeline.enable_model_cpu_offload()
         # pipeline.to(self.device)
         self.vae_scale_factor = pipeline.vae_scale_factor
         # UNet is replaced by Transformer in SD3

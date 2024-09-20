@@ -1,4 +1,4 @@
-python ./scripts/gen.py \
+python ./scripts/generate.py \
     --model_type sd1 \
     --prompt "a professional photograph of an astronaut riding a horse" \
     --num_generation 4 \
